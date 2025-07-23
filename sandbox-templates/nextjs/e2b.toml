@@ -1,0 +1,17 @@
+# This is a config for E2B sandbox template.
+# You can use template ID (rqmsywgvm3x7xd2mhbpa) or template name (codely-nextjs-test-2) to create a sandbox:
+
+# Python SDK
+# from e2b import Sandbox, AsyncSandbox
+# sandbox = Sandbox("codely-nextjs-test-2") # Sync sandbox
+# sandbox = await AsyncSandbox.create("codely-nextjs-test-2") # Async sandbox
+
+# JS SDK
+# import { Sandbox } from 'e2b'
+# const sandbox = await Sandbox.create('codely-nextjs-test-2')
+
+team_id = "5c080faa-503e-48ac-ac2d-87da7ed0e58c"
+start_cmd = "/compile_page.sh"
+dockerfile = "e2b.Dockerfile"
+template_name = "codely-nextjs-test-2"
+template_id = "rqmsywgvm3x7xd2mhbpa"
