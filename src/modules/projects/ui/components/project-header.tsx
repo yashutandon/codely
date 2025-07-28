@@ -39,7 +39,7 @@ export const ProjectHeader = ({ projectId }: Props) => {
 
   const { setTheme, theme } = useTheme();
 
-  // ✅ Optional fallback name if project.name is missing
+
   const projectName = project?.name || "Untitled Project";
 
   return (
