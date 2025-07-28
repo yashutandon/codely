@@ -1,3 +1,5 @@
+import {Navbar} from "@/modules/home/ui/components/nav-bar";
+
 interface Props {
   children: React.ReactNode;
 }
@@ -5,6 +7,7 @@ interface Props {
 const Layout = ({ children }: Props) => {
   return (
     <main className="flex flex-col min-h-screen max-h-screen">
+    <Navbar/>
 <div
   className="fixed top-0 left-0 w-full min-h-screen -z-10 
     bg-gradient-to-br from-white via-purple-100 to-blue-100 
